@@ -47,20 +47,24 @@ func isiData_Mahasiswa(data *arrM, N int) { // ariz
 		return -1
 	}
 }
-/*
-func Bin_() { apis
 
+/*func Bin_() { apis
+
+}*/
+
+func insort_cariNilaiTertinggi(data *arrM) {
+	var x, maksimum
+
+	for i := 1; i <= x; i++ {
+		if arr[i] > maksimum {
+			maksimum = arr[i]
+		}
+	}
 }
 
-func insort_cariNilaiTinggi() { apis
+/*func selsort_cariNilaiTerendah() { apis
 
-}
-
-func selsort_cariNilaiTerendah() { apis
-
-}
-
-*/
+}*/
 
 func Show_data(data arrM) { // ariz
 	for i := 0; i < data.n; i++ {
