@@ -51,13 +51,19 @@ func Seq_CariMahasiswa(data *arrM, skor int) int {
 /*
 func Bin_() { apis
 
+}*/
+
+func insort_cariNilaiTertinggi(data *arrM) {
+	var x, maksimum
+
+	for i := 1; i <= x; i++ {
+		if arr[i] > maksimum {
+			maksimum = arr[i]
+		}
+	}
 }
 
-func insort_cariNilaiTinggi() { apis
-
-}
-
-func selsort_cariNilaiTerendah() { apis
+/*func selsort_cariNilaiTerendah() { apis
 
 }
 
